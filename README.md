@@ -1,44 +1,44 @@
 # CodeManagerPlateform
 
-Ce projet, CodeManagerPlateform, permet de gérer les différents codes promo d'une campagne marketing. Il utilise le framework CodeIgniter pour le développement de l'application.
+This project, CodeManagerPlatform, allows the management of various promo codes for a marketing campaign. It uses the CodeIgniter framework for the development of the application.
 
 
 ## Installation
 
-1. Cloner ce repository sur votre machine locale.
-2 . Assurez-vous d'avoir Docker installé sur votre machine.
-3. Exécutez la commande suivante pour lancer l'application avec Docker :
+1. Clone this repository to your local machine.
+2. Make sure Docker is installed on your machine.
+3. Run the following command to start the application with Docker:
 
 ```bash
 docker-compose up -d        
 ``` 
 
-## Fonctionnalités
+## Features
 
-### Pour les Clients (Entreprises)
+### For Clients (Businesses)
 
-Une fois authentifié, les clients (entreprises) peuvent :
+Once authenticated, clients (businesses) can :
 
-- Générer une liste de codes promo.
-- Bénéficier d'une réduction en utilisant un code promo valide.
-- Importer des codes promo.
-- Transmettre des codes uniques aux clients finaux.
+- Generate a list of promo codes.
+- Benefit from a discount by using a valid promo code.
+- Import promo codes.
+- Provide unique codes to end customers.
 
-### Pour les Administrateurs
+### For Administrators
 
-Les administrateurs peuvent :
+Administrators can :
 
-- Gérer les différents clients (entreprises).
+- Manage different clients (businesses).
 
-## Technologies Utilisées
+## Technologies Used
 
-- **CodeIgniter** : Framework PHP utilisé pour le développement de l'application.
-- **MySQL** : Système de gestion de base de données relationnelle pour stocker les données des utilisateurs et des codes promo.
-- **Docker** : Conteneurisation de l'application avec Docker.
+- **CodeIgniter** : PHP framework used for application development.
+- **MySQL** : Relational database management system for storing user and promo code data.
+- **Docker** : Application containerization using Docker.
   
-## Structure de la Base de Données
+## Database Structure
 
-Voici la structure de la base de données utilisée dans l'application :
+Here is the database structure used in the application :
 
 ```sql
 CREATE TABLE IF NOT EXISTS user (
